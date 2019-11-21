@@ -20,8 +20,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MyIconComponent implements OnInit {
   @Input() shape: 'search' | 'close';
-  @Input() width: string | number = 24;
-  @Input() height: string | number = 24;
+  @Input() width: string | number = 32;
+  @Input() height: string | number = 32;
   @Input() color: string = 'black';
 
   get d(): string {
